@@ -59,7 +59,7 @@ export const Home = () => {
 
 
       {/* Content Section */}
-      <div className="w-full md:w-1/2 p-4 md:text-left  md:mt-24 md:flex1 -mt-0 bg-black ">
+      <div className="w-full md:w-1/2 p-4 md:text-left  md:mt-24 md:flex1 -mt-0 bg-black">
         {/* Intro */}
         <div className="mb-2">
           <p className="text-3xl md:text-5xl font-light text-white">

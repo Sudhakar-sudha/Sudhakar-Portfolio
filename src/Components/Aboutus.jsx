@@ -22,7 +22,7 @@ const Aboutus = () => {
        viewport={{once:false,amount:0.7}}
       
        className='md:hidden flex -mt-1 ml-7'> */}
-            <h1 className='inline-flex text-4xl text-white font-bold border-b-4 pb-3 border-blue-500 glow-effect '>About
+            <h1 className='inline-flex text-4xl text-white font-bold border-b-4 pb-3 border-blue-500 glow-effect mt-9 mb-9 '>About
             <p className='ml-3'> us</p>
             </h1>
             
@@ -33,13 +33,13 @@ const Aboutus = () => {
     <img
       src={myImage}
       alt="My Profile"
-      className="md:w-4/4 md:h-2/4 w-4/5 h-4/5 ml-11 mt-7 md:mt-24  rounded-full border-2 border-blue-600 bg-black custom-dark-blue-shadow "
+      className="md:w-4/4 md:h-2/4 w-4/5 h-4/5 ml-11 mb-9 mt-7 md:mt-24  rounded-full border-2 border-blue-600 bg-black custom-dark-blue-shadow "
     />
   </div>
 </div>
 
 
-        <div className='md:flex-1 md:mt-14 md:mr-28 p-3 '>
+        <div className='md:flex-1 md:mt-14 md:mr-28 p-4 '>
             
               <div className='hidden md:flex'>
             <h1 className='inline-flex text-4xl text-white font-bold border-b-4 pb-3 border-blue-500 mb-5 glow-effect'>About

@@ -278,7 +278,7 @@ body::-webkit-scrollbar-thumb {
 .timeline-content {
   background-color: black;
   border: 2px solid blue;
-  padding: 20px 30px;
+  padding: 10px 20px;
   border-radius: 2rem;
   box-shadow: 0 0 10px blue;
   cursor:pointer;
