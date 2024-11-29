@@ -61,3 +61,13 @@ const SocialIcons = ({ progress, label }) => {
 };
 
 export default SocialIcons;
+
+
+
+// git push -u origin main
+// git status
+// git commit -m "firstcommit"
+// git remote add origin https://github.com/Sudhakar-sudha/Sudhakar-Portfolio.git
+// git branch -M main
+// git add .
+// git init 

@@ -43,14 +43,14 @@ export const Home = () => {
   return (
     <div>
       
-    <div className="md:flex  items-center justify-center ">
+    <div className="md:flex  items-center justify-center bg-black">
 
 
-<div className="w-5/6 md:w-1/2 md:flex1 ml-20">
+<div className="w-5/6 md:w-1/2 md:flex1 ml-10">
   <img
     src={myImage}
     alt="My Profile"
-    className="md:w-3/6 md:h-4/5 md:ml-28 md:mt-11 w-2/4 h-3/4 ml-48  custom-dark-blue-shadow"
+    className="md:w-3/6 md:h-4/5 md:ml-28 md:mt-11 w-2/4 h-3/4 ml-20  custom-dark-blue-shadow"
     onClick={confettibtn}
   />
 </div>
@@ -59,7 +59,7 @@ export const Home = () => {
 
 
       {/* Content Section */}
-      <div className="w-full md:w-1/2 p-4 md:text-left  md:mt-24 md:flex1 -mt-16 ">
+      <div className="w-full md:w-1/2 p-4 md:text-left  md:mt-24 md:flex1 -mt-0 bg-black ">
         {/* Intro */}
         <div className="mb-2">
           <p className="text-3xl md:text-5xl font-light text-white">

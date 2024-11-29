@@ -33,7 +33,7 @@ const Aboutus = () => {
     <img
       src={myImage}
       alt="My Profile"
-      className="md:w-4/4 md:h-2/4 w-4/5 h-4/5 ml-14 mt-7 md:mt-24  rounded-full border-2 border-blue-600 bg-black custom-dark-blue-shadow "
+      className="md:w-4/4 md:h-2/4 w-4/5 h-4/5 ml-11 mt-7 md:mt-24  rounded-full border-2 border-blue-600 bg-black custom-dark-blue-shadow "
     />
   </div>
 </div>

@@ -38,7 +38,7 @@ function Navbar() {
 
         {/* Navigation Menu */}
         <div className={`${active ? "block" : "hidden"} md:block`}>
-          <ol className="list-none float-end text-center text-4xl md:py-5 md:px-0 px-32">
+          <ol className="list-none float-end text-center text-4xl md:py-5 md:px-0 px-24">
             {/* Navigation Items */}
             {[
               { icon: faHome, text: "Home", width: "5rem" },

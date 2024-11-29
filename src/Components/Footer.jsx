@@ -75,7 +75,7 @@ export const Footer = () => {
 
 
 <div className='bg-black flex justify-center md:justify-center space-x-6 md:pb-0 pb-5'>
-<ol className="list-none float-end text-center text-4xl md:py-5 md:px-0 px-32 bg-black">
+<ol className="list-none float-end text-center text-4xl md:py-5 md:px-0 px-28 bg-black">
             {/* Navigation Items */}
             {[
               { icon: faHome, text: "Home", width: "5rem" },
