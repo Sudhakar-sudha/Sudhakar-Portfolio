@@ -54,7 +54,6 @@ const Aboutus = () => {
 
         </div>
       </div>
-<Education/>
     </div>
   )
 }

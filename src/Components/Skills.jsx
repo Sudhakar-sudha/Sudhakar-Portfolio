@@ -10,7 +10,7 @@ const Skills = () => {
           <h1 className="headingskills glow-effect ">Skills</h1>
           </div>
    
-    <div className="bg-black text-white md:flex px-16 pb-10 ">
+    <div className="bg-black text-white md:flex md:px-16 px-5 pb-1 items-center justify-center">
          
 
         <div className="md:flex-1">
@@ -85,7 +85,6 @@ const Skills = () => {
 
 
     </div>
-    <Projects/>
     </div>
   );
 };

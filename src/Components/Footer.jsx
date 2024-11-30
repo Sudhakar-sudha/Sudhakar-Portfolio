@@ -15,7 +15,7 @@ export const Footer = () => {
   return (
     <div>
         <div className='bg-black'>
-            <div className='text-6xl flex justify-center md:justify-center space-x-6 font-bold text-blue-500 glow-effect mb-10'>
+            <div className='text-5xl flex  justify-center md:justify-center  font-bold text-blue-500 glow-effect mb-10'>
                 <h1>Get in Touch</h1>
             </div>
     {/* Social Icons */}
@@ -75,22 +75,22 @@ export const Footer = () => {
 
 
 <div className='bg-black flex justify-center md:justify-center space-x-6 md:pb-0 pb-5'>
-<ol className="list-none float-end text-center text-4xl md:py-5 md:px-0 px-28 bg-black">
+<ol className="list-none float-end text-center text-4xl md:py-5 md:px-0 px-16 bg-black">
             {/* Navigation Items */}
             {[
-              { icon: faHome, text: "Home", width: "5rem" },
-              { icon: faUser, text: "About Us", width: "6rem" },
-              { icon: faGraduationCap, text: "Education", width: "7rem" },
-              { icon: faCogs, text: "Skills", width: "4rem" },
-              { icon: faProjectDiagram, text: "Projects", width: "6rem" },
-              { icon: faPhone, text: "Contact Us", width: "7rem" },
+           { icon: faHome, text: "Home", link:"#home" ,width: "5rem" },
+           { icon: faUser, text: "About Us",link:"#about", width: "6rem" },
+           { icon: faGraduationCap, text: "Education",link:"#education", width: "7rem" },
+           { icon: faCogs, text: "Skills",link:"#skills", width: "4rem" },
+           { icon: faProjectDiagram, text: "Projects",link:"#projects", width: "6rem" },
+           { icon: faPhone, text: "Contact Us",link:"#contact", width: "7rem" },
             ].map((item, index) => (
               <li
                 key={index}
                 className="flex-1 md:inline-block p-3 md:mr-4 text-center text-xl font-bold text-white relative group"
               >
                 <a
-                  href="#"
+                  href={item.link}
                   className="group-hover:text-blue-400 transition duration-300"
                 >
                   <FontAwesomeIcon icon={item.icon} /> {item.text}

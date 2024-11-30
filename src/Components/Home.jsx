@@ -12,6 +12,8 @@ import Aboutus from "./Aboutus";
 import { motion } from 'framer-motion';
 //variants
 import { fadeIn } from '../variants'
+
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 export const Home = () => {
   // Confetti trigger
   const confettibtn = () => {
@@ -71,7 +73,7 @@ export const Home = () => {
 
         <div className="text-3xl md:text-4xl text-white">
       <h1>
-        I'am a <span className="text-orange-500" ref={el}></span>
+        I'm a <span className="text-orange-500" ref={el}></span>
       </h1>
     </div>
         {/* Description */}
@@ -137,7 +139,6 @@ export const Home = () => {
 
       </div>
     </div>
-      <Aboutus/>
     </div>
   );
 };

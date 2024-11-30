@@ -1,5 +1,4 @@
 import React from 'react'
-import Skills from './Skills'
 
 export const Education = () => {
 
@@ -57,7 +56,6 @@ export const Education = () => {
         </div>
       </div>
     </div>
-<Skills/>
     </div>
   )
 }
