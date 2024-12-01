@@ -1,14 +1,11 @@
 import Preloader from "./Components/Preloader";
-import Skills from "./Components/Skills";
-import SocialIcons from "./Components/SocialIcons";
 
-function App(){
-  return(
+function App() {
+  return (
     <div>
-      <Preloader/>
-      {/* <SocialIcons/> */}
-      {/* <Skills/> */}
-      </div>
-  )
+      <Preloader />
+    </div>
+  );
 }
+
 export default App;

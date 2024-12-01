@@ -1,21 +1,3 @@
-// import React from "react";
-
-
-// const SocialIcons = ({ progress, label }) => {
-
-//     return (
-//       <div className="w-64 bg-gray-200 rounded-lg overflow-hidden shadow-md">
-//         <div
-//           className="bg-blue-500 text-xs font-bold text-white text-center p-1 leading-none"
-//           style={{ width: `${progress}%` }}
-//         >
-//           {label ? `${progress}%` : ""}
-//         </div>
-//       </div>
-//       );
-//     };
-
-// export default SocialIcons;
 import React, { useState, useEffect, useRef } from "react";
 
 const SocialIcons = ({ progress, label }) => {
@@ -61,6 +43,7 @@ const SocialIcons = ({ progress, label }) => {
 };
 
 export default SocialIcons;
+
 
 
 

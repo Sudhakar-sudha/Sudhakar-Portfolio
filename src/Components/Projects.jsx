@@ -11,38 +11,44 @@ export const Projects = () => {
   const projectData = [
     {
       image: project1,
-      title: ' Simple Calculator',
-      description: 'A **Calculator Website** built using HTML and CSS that provides a user-friendly interface for performing basic arithmetic operations and simple calculations.',
+      title: 'Simple Calculator',
+      description:
+        'A **Calculator Website** built using HTML and CSS that provides a user-friendly interface for performing basic arithmetic operations and simple calculations.',
       link: 'http://calculators.infinityfreeapp.com/',
     },
     {
       image: project2,
-      title: ' TNEB Bill Calculator',
-      description: 'A **TNEB Bill Calculator Website** built using HTML and CSS that helps users calculate their Tamil Nadu Electricity Board (TNEB) bill based on consumption and tariff rates.',
+      title: 'TNEB Bill Calculator',
+      description:
+        'A **TNEB Bill Calculator Website** built using HTML and CSS that helps users calculate their Tamil Nadu Electricity Board (TNEB) bill based on consumption and tariff rates.',
       link: 'http://calculators.infinityfreeapp.com/TNEB/',
     },
     {
       image: project3,
       title: 'Crackers Website',
-      description: 'A **Crackers Website** built using HTML, CSS, and JavaScript that allows users to browse, select, and purchase various firecrackers online with an interactive and responsive design.',
+      description:
+        'A **Crackers Website** built using HTML, CSS, and JavaScript that allows users to browse, select, and purchase various firecrackers online with an interactive and responsive design.',
       link: 'http://jsscrackers.infinityfreeapp.com/',
     },
     {
       image: project4,
       title: 'Expenses Tracker',
-      description: "An expense tracker website that uses JavaScript to manage and store user data locally in the browser's local storage for easy access and tracking.",
+      description:
+        "An expense tracker website that uses JavaScript to manage and store user data locally in the browser's local storage for easy access and tracking.",
       link: 'http://calculators.infinityfreeapp.com/ExpensesTracker',
     },
     {
       image: project5,
       title: 'V Print Tech',
-      description: '"V Print Tech" is a printing offset website developed using the MERN stack in collaboration with Satheeshbabu.',
+      description:
+        '"V Print Tech" is a printing offset website developed using the MERN stack in collaboration with Satheeshbabu.',
       link: 'https://vprinttech.netlify.app/',
     },
     {
       image: project6,
       title: 'My Portfolio',
-      description: 'A **Personal Portfolio Website** built with React, Tailwind CSS, and CSS animations to showcase projects, skills, and experience in an interactive and visually appealing design.',
+      description:
+        'A **Personal Portfolio Website** built with React, Tailwind CSS, and CSS animations to showcase projects, skills, and experience in an interactive and visually appealing design.',
       link: 'https://sudhakar-portfolio.vercel.app/',
     },
   ];
@@ -54,7 +60,7 @@ export const Projects = () => {
       </div>
 
       {/* Responsive Project Cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-6  pb-16 px-28">
+      <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-6 pb-16 px-28">
         {projectData.map((project, index) => (
           <div
             key={index}
@@ -80,10 +86,10 @@ export const Projects = () => {
                 href={project.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white  bg-black p-2 rounded-full transition-all duration-300 hover:scale-110 hover:text-black hover:bg-white hover:shadow-[0_0_15px_rgba(0,112,255,0.7)]"
+                className="text-white bg-black p-2 rounded-full transition-all duration-300 hover:scale-110 hover:text-black hover:bg-white hover:shadow-[0_0_15px_rgba(0,112,255,0.7)]"
                 style={{
-                textShadow: "0 0 15px rgba(0, 112, 255, 0.8), 0 0 25px rgba(0, 112, 255, 0.6)",
-                  }}
+                  textShadow: '0 0 15px rgba(0, 112, 255, 0.8), 0 0 25px rgba(0, 112, 255, 0.6)',
+                }}
               >
                 View Project
               </a>

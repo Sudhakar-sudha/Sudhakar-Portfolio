@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Home } from "./Home";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 import {
   faHome,
   faUser,
@@ -47,17 +46,17 @@ function Navbar() {
         <div className={`${active ? "block" : "hidden"} md:block`}>
           <ol className="list-none float-end text-center text-4xl md:py-5 md:px-0 px-16">
             {/* Navigation Items */}
-            {[
-              { icon: faHome, text: "Home", link:"#home" ,width: "5rem" },
-              { icon: faUser, text: "About Us",link:"#about", width: "6rem" },
-              { icon: faGraduationCap, text: "Education",link:"#education", width: "7rem" },
-              { icon: faCogs, text: "Skills",link:"#skills", width: "4rem" },
-              { icon: faProjectDiagram, text: "Projects",link:"#projects", width: "6rem" },
-              { icon: faPhone, text: "Contact Us",link:"#contact", width: "7rem" },
+            {[ 
+              { icon: faHome, text: "Home", link: "#home", width: "5rem" },
+              { icon: faUser, text: "About Us", link: "#about", width: "6rem" },
+              { icon: faGraduationCap, text: "Education", link: "#education", width: "7rem" },
+              { icon: faCogs, text: "Skills", link: "#skills", width: "4rem" },
+              { icon: faProjectDiagram, text: "Projects", link: "#projects", width: "6rem" },
+              { icon: faPhone, text: "Contact Us", link: "#contact", width: "7rem" },
             ].map((item, index) => (
               <li
                 key={index}
-                className="flex-1 md:inline-block p-3 md:mr-4 text-center text-xl font-bold text-white md:relative  group"
+                className="flex-1 md:inline-block p-3 md:mr-4 text-center text-xl font-bold text-white md:relative group"
               >
                 <AnchorLink
                   href={item.link}
@@ -76,12 +75,24 @@ function Navbar() {
       </div>
 
       {/* Home Component */}
-      <section id="home"><Home/></section>
-      <section id="about"><Aboutus/></section>
-      <section id="education"><Education/></section>
-      <section id="skills"><Skills/></section>
-      <section id="projects"><Projects/></section>
-      <section id="contact"><Footer/></section>
+      <section id="home">
+        <Home />
+      </section>
+      <section id="about">
+        <Aboutus />
+      </section>
+      <section id="education">
+        <Education />
+      </section>
+      <section id="skills">
+        <Skills />
+      </section>
+      <section id="projects">
+        <Projects />
+      </section>
+      <section id="contact">
+        <Footer />
+      </section>
     </div>
   );
 }
