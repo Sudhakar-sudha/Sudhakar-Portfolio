@@ -3,6 +3,8 @@ import project1 from '/assets/project1.png';
 import project2 from '/assets/project2.png';
 import project3 from '/assets/project3.png';
 import project4 from '/assets/project4.png';
+import project5 from '/assets/project5.png';
+import project6 from '/assets/project6.png';
 
 export const Projects = () => {
   // Dynamic data for projects
@@ -27,6 +29,18 @@ export const Projects = () => {
     },
     {
       image: project4,
+      title: 'Expenses Tracker',
+      description: "An expense tracker website that uses JavaScript to manage and store user data locally in the browser's local storage for easy access and tracking.",
+      link: 'http://calculators.infinityfreeapp.com/ExpensesTracker',
+    },
+    {
+      image: project5,
+      title: 'V Print Tech',
+      description: '"V Print Tech" is a printing offset website developed using the MERN stack in collaboration with Satheeshbabu.',
+      link: 'https://vprinttech.netlify.app/',
+    },
+    {
+      image: project6,
       title: 'My Portfolio',
       description: 'A **Personal Portfolio Website** built with React, Tailwind CSS, and CSS animations to showcase projects, skills, and experience in an interactive and visually appealing design.',
       link: 'https://sudhakar-portfolio.vercel.app/',
@@ -40,7 +54,7 @@ export const Projects = () => {
       </div>
 
       {/* Responsive Project Cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-4 gap-6 px-6 py-10">
+      <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-6  pb-16 px-28">
         {projectData.map((project, index) => (
           <div
             key={index}

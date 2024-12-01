@@ -61,7 +61,7 @@ function Navbar() {
               >
                 <AnchorLink
                   href={item.link}
-                  className="group-hover:text-blue-400 transition duration-300"
+                  className="group-hover:text-blue-400 transition duration-300 py-4"
                 >
                   <FontAwesomeIcon icon={item.icon} /> {item.text}
                 </AnchorLink>
