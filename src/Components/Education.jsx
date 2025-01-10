@@ -16,8 +16,7 @@ export const Education = () => {
             <div className="timeline-content">
               <h2>Secondary School</h2>
               <p>
-                Successfully completed secondary education, laying a strong
-                foundation for future academic pursuits.
+Finished secondary education at S.H.N.V. Matriculation Higher Secondary School, Sivakasi, with an average score of 72.6%, gaining a solid base for future studies.
               </p>
             </div>
           </div>
@@ -29,8 +28,7 @@ export const Education = () => {
             <div className="timeline-content">
               <h2>Higher Secondary School</h2>
               <p>
-                Achieved higher secondary school education with a focus on
-                science and mathematics.
+              Completed higher secondary education at S.H.N.V. Matriculation Higher Secondary School, Sivakasi, in the Bio-Maths group, with an excellent average of 89%, focusing on science and mathematics.
               </p>
             </div>
           </div>
@@ -42,8 +40,7 @@ export const Education = () => {
             <div className="timeline-content">
               <h2>Internship</h2>
               <p>
-                Gained hands-on experience in software development during an
-                industry internship program.
+              During my internship, I learned React and the MERN stack and gained hands-on experience in software development. Together with my friend Satheeshbabu, I developed a website for V Print Tech Printing Offset to showcase the company's services. This project helped me strengthen my full-stack development and web design skills, providing valuable practical experience.
               </p>
             </div>
           </div>
@@ -55,8 +52,7 @@ export const Education = () => {
             <div className="timeline-content">
               <h2>College</h2>
               <p>
-                Pursuing a Bachelor’s degree in Computer Science, specializing in
-                software engineering and development.
+              I am currently in my final year (6th semester) of studying for a Bachelor's degree in Computer Science at Ayya Nadar Janaki Ammal College, Sivakasi, specializing in programming and web development. My CGPA up to the 4th semester is 7.47 out of 10.
               </p>
             </div>
           </div>
