@@ -104,9 +104,12 @@ export const Footer = () => {
           </ol>
         </div>
 
-        <div className='bg-blue-500 flex justify-center md:justify-center space-x-6 text-white text-xl p-1'>
-          <h1>Copyright @2024 . Designed by Sudhakar</h1>
-        </div>
+        <div className="bg-blue-500 flex justify-center md:justify-center space-x-6 text-white text-xl p-1">
+  <h1>
+    Copyright © {new Date().getFullYear()}. Designed by Sudhakar
+  </h1>
+</div>
+
       </div>
     </div>
   );
