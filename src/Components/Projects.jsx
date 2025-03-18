@@ -5,6 +5,9 @@ import project3 from '/assets/project3.png';
 import project4 from '/assets/project4.png';
 import project5 from '/assets/project5.png';
 import project6 from '/assets/project6.png';
+import project7 from '/assets/project7.png';
+import project8 from '/assets/project8.png';
+import project9 from '/assets/project9.png';
 
 export const Projects = () => {
   // Dynamic data for projects
@@ -50,6 +53,21 @@ export const Projects = () => {
       description:
         'A **Personal Portfolio Website** built with React, Tailwind CSS, and CSS animations to showcase projects, skills, and experience in an interactive and visually appealing design.',
       link: 'https://sudhakar-portfolio.vercel.app/',
+    },  {
+      image: project7,
+      title: 'Tancet Quiz',
+      description:'The **TANCET Quiz Website** is an interactive platform designed to help students prepare for the Tamil Nadu Common Entrance Test with mock tests, instant results, and anti-cheating features. It offers a seamless, mobile-friendly experience with real-time assessments and performance analytics. 🚀',
+            link: 'https://tancetquiz.vercel.app/',
+    },  {
+      image: project8,
+      title: 'LocalEStartup Seller',
+      description:'The **LocalStartup Seller Website** is a platform that empowers small businesses to showcase and sell their products online, connecting them with local buyers. It offers an easy-to-use interface, secure transactions, and seamless order management for sellers. 🚀', 
+       link: 'https://localestartup.vercel.app/',
+    },  {
+      image: project9,
+      title: 'LocalEStartup User',
+      description:' The **LocalStartup User App** allows customers to explore and purchase products from local sellers, supporting small businesses while enjoying a seamless shopping experience. It features secure payments, easy navigation, and real-time order tracking. 🛍️📲' ,
+         link: 'https://localestartup.vercel.app/',
     },
   ];
 
