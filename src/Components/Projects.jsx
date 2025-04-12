@@ -7,68 +7,63 @@ import project5 from '/assets/project5.png';
 import project6 from '/assets/project6.png';
 import project7 from '/assets/project7.png';
 import project8 from '/assets/project8.png';
-import project9 from '/assets/project9.png';
 
 export const Projects = () => {
   // Dynamic data for projects
   const projectData = [
     {
-      image: project1,
+      image: 'https://res.cloudinary.com/dlfan4caj/image/upload/v1744426175/project1_m0wr0b.png',
       title: 'Simple Calculator',
       description:
         'A **Calculator Website** built using HTML and CSS that provides a user-friendly interface for performing basic arithmetic operations and simple calculations.',
       link: 'http://calculators.infinityfreeapp.com/',
     },
     {
-      image: project2,
+      image: 'https://res.cloudinary.com/dlfan4caj/image/upload/v1744426175/project2_lqrera.png',
       title: 'TNEB Bill Calculator',
       description:
         'A **TNEB Bill Calculator Website** built using HTML and CSS that helps users calculate their Tamil Nadu Electricity Board (TNEB) bill based on consumption and tariff rates.',
       link: 'http://calculators.infinityfreeapp.com/TNEB/',
     },
     {
-      image: project3,
+      image: 'https://res.cloudinary.com/dlfan4caj/image/upload/v1744426187/project3_go2iqo.png',
       title: 'Crackers Website',
       description:
         'A **Crackers Website** built using HTML, CSS, and JavaScript that allows users to browse, select, and purchase various firecrackers online with an interactive and responsive design.',
       link: 'http://jsscrackers.infinityfreeapp.com/',
     },
     {
-      image: project4,
+      image: 'https://res.cloudinary.com/dlfan4caj/image/upload/v1744426177/project4_kehepi.png',
       title: 'Expenses Tracker',
       description:
         "An expense tracker website that uses JavaScript to manage and store user data locally in the browser's local storage for easy access and tracking.",
       link: 'http://calculators.infinityfreeapp.com/ExpensesTracker',
     },
     {
-      image: project5,
+      image: 'https://res.cloudinary.com/dlfan4caj/image/upload/v1744426183/project5_yf0qlb.png',
+      title: 'My Portfolio',
+      description:
+        'A **Personal Portfolio Website** built with React, Tailwind CSS, and CSS animations to showcase projects, skills, and experience in an interactive and visually appealing design.',
+      link: 'https://sudhakar-portfolio.vercel.app/',
+    }, 
+    {
+      image: 'https://res.cloudinary.com/dlfan4caj/image/upload/v1744426189/project6_nhqiuc.png',
       title: 'V Print Tech',
       description:
         '"V Print Tech" is a printing offset website developed using the MERN stack in collaboration with Satheeshbabu.',
       link: 'https://vprinttech.netlify.app/',
     },
-    {
-      image: project6,
-      title: 'My Portfolio',
-      description:
-        'A **Personal Portfolio Website** built with React, Tailwind CSS, and CSS animations to showcase projects, skills, and experience in an interactive and visually appealing design.',
-      link: 'https://sudhakar-portfolio.vercel.app/',
-    },  {
-      image: project7,
+     {
+      image: 'https://res.cloudinary.com/dlfan4caj/image/upload/v1744426184/project7_xmkuu9.png',
       title: 'Tancet Quiz',
-      description:'The **TANCET Quiz Website** is an interactive platform designed to help students prepare for the Tamil Nadu Common Entrance Test with mock tests, instant results, and anti-cheating features. It offers a seamless, mobile-friendly experience with real-time assessments and performance analytics. 🚀',
+      description:'The **TANCET Quiz Website** is an interactive platform designed to help students prepare for the Tamil Nadu Common Entrance Test with mock tests, instant results, and anti-cheating features. It offers a seamless, mobile-friendly experience with real-time assessments and performance analytics.',
             link: 'https://tancetquiz.vercel.app/',
     },  {
-      image: project8,
-      title: 'LocalEStartup Seller',
-      description:'The **LocalStartup Seller Website** is a platform that empowers small businesses to showcase and sell their products online, connecting them with local buyers. It offers an easy-to-use interface, secure transactions, and seamless order management for sellers. 🚀', 
+      image: 'https://res.cloudinary.com/dlfan4caj/image/upload/v1744426185/project8_x8v9yc.png',
+      title: 'LocalEStartup',
+      description:'LocalEStartup is a user-friendly e-commerce platform that connects local startups with customers to boost visibility and sales. It enables easy product browsing, secure ordering, and fast delivery through a dedicated seller and delivery system.', 
        link: 'https://localestartup.vercel.app/',
-    },  {
-      image: project9,
-      title: 'LocalEStartup User',
-      description:' The **LocalStartup User App** allows customers to explore and purchase products from local sellers, supporting small businesses while enjoying a seamless shopping experience. It features secure payments, easy navigation, and real-time order tracking. 🛍️📲' ,
-         link: 'https://localestartup.vercel.app/',
-    },
+    }
   ];
 
   return (

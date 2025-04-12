@@ -52,10 +52,23 @@ Finished secondary education at S.H.N.V. Matriculation Higher Secondary School, 
             <div className="timeline-content">
               <h2>College</h2>
               <p>
-              I am currently in my final year (6th semester) of studying for a Bachelor's degree in Computer Science at Ayya Nadar Janaki Ammal College, Sivakasi, specializing in programming and web development. My CGPA up to the 4th semester is 7.47 out of 10.
+              I am currently in my final year (6th semester) of studying for a Bachelor's degree in Computer Science at Ayya Nadar Janaki Ammal College, Sivakasi, specializing in programming and web development. My CGPA up to the 5th semester is 7.47 out of 10.
               </p>
             </div>
           </div>
+
+             {/* College */}
+             <div className="timeline-item">
+            <div className="timeline-dot"></div>
+            <div className="timeline-date">2025</div>
+            <div className="timeline-content">
+              <h2>Project</h2>
+              <p>
+              For my final year project, I developed **LocalEStartup**, an e-commerce platform designed to support local startups. It includes a **website for sellers** to easily add, update, and manage their products. A separate **mobile app for users** allows them to browse products, place orders, and make secure payments. Additionally, a **delivery boy app** helps track and manage deliveries, ensuring timely and efficient service. This system connects sellers, buyers, and delivery personnel in one streamlined platform to support local business growth.
+               </p>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>

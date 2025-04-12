@@ -39,7 +39,7 @@ export const Home = () => {
         {/* Image Section */}
         <div className="w-5/6 md:w-1/2 md:flex1 ml-10">
           <img
-            src={myImage}
+            src='https://res.cloudinary.com/dlfan4caj/image/upload/v1744426192/sudhakar_iw5izp.png'
             alt="My Profile"
             className="md:w-3/6 md:h-4/5 md:ml-28 md:mt-11 w-2/4 h-3/4 ml-20 custom-dark-blue-shadow"
             onClick={confettibtn}

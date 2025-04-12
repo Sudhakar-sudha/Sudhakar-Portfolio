@@ -23,7 +23,7 @@ export const Footer = () => {
         {/* Social Icons */}
         <div className="flex justify-center md:justify-center space-x-6">
           <a
-            href="https://www.instagram.com"
+            href="https://www.instagram.com/frds_call_me_sudha/?utm_source=ig_web_button_share_sheet"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white text-3xl bg-black p-3 rounded-full transition-all duration-300 hover:scale-110 hover:text-white hover:bg-blue-500 hover:shadow-[0_0_15px_rgba(0,112,255,0.7)]"

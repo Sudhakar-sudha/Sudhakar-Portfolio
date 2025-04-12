@@ -24,7 +24,7 @@ const Aboutus = () => {
         <div className="md:flex-1">
           <div className="inline-block">
             <img
-              src={myImage}
+              src='https://res.cloudinary.com/dlfan4caj/image/upload/v1744428961/about_j9levp.png'
               alt="My Profile"
               className="md:w-4/4 md:h-2/4 w-4/5 h-4/5 ml-11 mb-9 mt-7 md:mt-24 rounded-full border-2 border-blue-600 bg-black custom-dark-blue-shadow"
             />
@@ -42,9 +42,12 @@ const Aboutus = () => {
           </div>
 
           {/* Description */}
-          <p className="text-xl text-white">
-            <span className="pl-16"></span>I am Sudhakar from Sivakasi. I completed my schooling at SHNV Matriculation Higher Secondary School with 89% in my higher studies. Currently, I am in my final semester of B.Sc. Computer Science at Ayya Nadar Janaki Ammal College, Sivakasi. I am passionate about learning new skills and have completed diploma courses in computer applications, hardware services, and desktop applications, as well as certifications in Python, NPTEL Soft Skills Development, and Data Structures and Algorithms. In school, I was an active football player, winning zonal-level matches and becoming a district-level runner-up. I am also a member of the NSS in college. My hobbies include watching movies and playing football. I am fluent in Tamil and have intermediate proficiency in English. Currently, I am studying full-stack web development (MERN stack) and React Native app development.
+          {/* <p className=" "> */}
+          <p className=" text-justify text-xl text-white leading-relaxed">
+            <span className='px-5'></span>
+            I am <strong>Sudhakar</strong> from <strong>Sivakasi</strong>, a passionate and dedicated individual currently in the final semester of my <strong>B.Sc. Computer Science</strong> at <strong>Ayya Nadar Janaki Ammal College, Sivakasi</strong>. I completed my schooling at <strong>SHNV Matriculation Higher Secondary School</strong>, where I achieved <strong>89%</strong> in my higher secondary education. Throughout my academic journey, I have always shown a strong interest in learning beyond the classroom.  To enhance my technical skills, I completed diploma courses in <strong>Computer Applications</strong>, <strong>Hardware Services</strong>, and <strong>Desktop Applications</strong>. I have also earned certifications in <strong>Python programming</strong>, <strong>NPTEL Soft Skills Development</strong>, and <strong>NPTEL Data Structures and Algorithms</strong>, which have strengthened both my coding knowledge and communication skills.  Apart from academics, I have actively participated in <strong>extracurricular activities</strong>. I was a passionate <strong>football player</strong> during school, where I led my team to win <strong>zonal-level matches</strong> and finished as <strong>district-level runner-up</strong>. I am also an active <strong>NSS volunteer</strong> in college, contributing to social service and community development.  My hobbies include <strong>watching movies</strong>, <strong>playing football</strong>, and exploring new technologies. I am fluent in <strong>Tamil</strong> and possess <strong>intermediate proficiency in English</strong>. Currently, I am expanding my expertise in <strong>full-stack web development (MERN stack)</strong> and <strong>React Native app development</strong>, aiming to build innovative, real-world applications that make a positive impact.
           </p>
+
 
           {/* Resume Button */}
           <button className="btn" onClick={handleOpenPdf}>

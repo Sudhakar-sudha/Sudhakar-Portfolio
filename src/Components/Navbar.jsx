@@ -30,9 +30,18 @@ function Navbar() {
       {/* Navbar container */}
       <div className="md:flex m-0 p-3">
         {/* Logo Section */}
-        <div className="text-6xl font-medium flex-1 p-3 text-blue-900 font-serif">
+        {/* <div className="text-6xl font-medium flex-1 p-3 text-blue-900 font-serif">
           <h1>S</h1>
-        </div>
+        </div> */}
+        {/* Logo Section */}
+<div className="flex-1 items-center p-3">
+  <img
+    src="https://res.cloudinary.com/dlfan4caj/image/upload/v1744431193/logo_ofheoe.png"
+    alt="My Logo"
+    className="w-20 h-18 md:w-40 md:h-28 object-contain"
+  />
+</div>
+
 
         {/* Hamburger Menu Icon for Mobile */}
         <div
