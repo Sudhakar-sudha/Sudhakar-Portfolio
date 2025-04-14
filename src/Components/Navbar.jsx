@@ -36,7 +36,7 @@ function Navbar() {
         {/* Logo Section */}
 <div className="flex-1 items-center p-3">
   <img
-    src="https://res.cloudinary.com/dlfan4caj/image/upload/v1744431193/logo_ofheoe.png"
+    src="https://res.cloudinary.com/dlfan4caj/image/upload/v1744599440/logo_vjfumm.png"
     alt="My Logo"
     className="w-20 h-18 md:w-40 md:h-28 object-contain"
   />
